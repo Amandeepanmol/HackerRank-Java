@@ -4,7 +4,7 @@ import java.text.*;
 import java.math.*;
 import java.util.regex.*;
 
-class Arithmetic 
+class Arithmetic                                              // Base or Super Class
 {
     int add(int a,int b)
     {
@@ -13,7 +13,7 @@ class Arithmetic
     }
 }
 
-class Adder extends Arithmetic
+class Adder extends Arithmetic                              // Child or Sub Class
 {
 
 }
