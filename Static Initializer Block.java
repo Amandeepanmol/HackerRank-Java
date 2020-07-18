@@ -10,8 +10,7 @@ public class Solution {
     static int  B=sc.nextInt();
     static int  H=sc.nextInt();
     static  boolean flag=true;
-   // B=sc.nextInt();
-   // H=sc.nextInt();
+   
 
 
 static 
@@ -20,7 +19,6 @@ static
     {
       if(B<=0 || H<=0)
        {
-        //System.out.println("java.lang.Exception: Breadth and height must be positive");
         flag=false;
         throw new Exception("Breadth and height must be positive");
 
